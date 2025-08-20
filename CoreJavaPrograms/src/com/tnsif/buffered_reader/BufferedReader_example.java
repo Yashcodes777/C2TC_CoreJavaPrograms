@@ -1,4 +1,4 @@
-package buffered_reader;
+package com.tnsif.buffered_reader;
 
 import java.io.*;
 

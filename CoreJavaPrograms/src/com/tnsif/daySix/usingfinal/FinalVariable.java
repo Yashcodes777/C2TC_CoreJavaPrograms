@@ -3,17 +3,18 @@ package com.tnsif.daySix.usingfinal;
 
 public class FinalVariable {
 
-	// final int x; // final instance variable must be initialized
+	// final  x; 
+	// final instance variable must be initialized
 
 	final int x = 100;
 
 	// Declare a static blank final variable.
 	final static int Y;
 
-	// Declare & intialize static final variable.
+	// Declare &  static final variable.
 	final static int Z = 10;
 
-	// instatnce method
+	// Instance method
 	void change() {
 		x = 30; // final variables can't be reassigned
 		Y = 200; // final static variables can't be reassigned
